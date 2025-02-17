@@ -1,69 +1,69 @@
-package view;
+    package view;
 
-import controller.MazeController;
+    import controller.MazeController;
 
-import javax.swing.*;
-import java.awt.*;
+    import javax.swing.*;
+    import java.awt.*;
 
-public class TableroView extends JFrame {
-    private JTextField rowsField, colsField;
+    public class TableroView extends JFrame {
+        private JTextField campoRows, campoCols;
 
-    public TableroView(MazeController controller) {
-        setTitle("Proyecto Final - Laberinto");
-        setSize(500, 400);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setLocationRelativeTo(null);
+        public TableroView(MazeController controller) {
+            setTitle("Proyecto Final - Laberinto");
+            setSize(500, 400);
+            setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            setLocationRelativeTo(null);
 
-        // Configuración del diseño principal
-        JPanel panel = new JPanel();
-        panel.setLayout(new GridLayout(7, 1));
+            // Configuración del diseño principal
+            JPanel panel = new JPanel();
+            panel.setLayout(new GridLayout(7, 1));
 
-        // Titulo principal
-        JLabel titleLabel = new JLabel("GENERAR TABLERO", SwingConstants.CENTER);
-        titleLabel.setFont(new Font("SansSerif", Font.BOLD, 24));
-        panel.add(titleLabel);
+            // Titulo principal
+            JLabel tituloLabel = new JLabel("GENERAR TABLERO", SwingConstants.CENTER);
+            tituloLabel.setFont(new Font(" ", Font.BOLD, 24));
+            panel.add(tituloLabel);
 
-        // Subtitulo
-        JLabel infoLabel = new JLabel("El ingreso del tamaño de la tabla debe ser entre 3x3 y 9x9", SwingConstants.CENTER);
-        infoLabel.setFont(new Font("SansSerif", Font.PLAIN, 14));
-        panel.add(infoLabel);
+            // Subtitulo
+            JLabel txtLabel = new JLabel("El ingreso del tamaño de la tabla debe ser entre 3x3 y 9x9", SwingConstants.CENTER);
+            txtLabel.setFont(new Font(" ", Font.PLAIN, 14));
+            panel.add(txtLabel);
 
-        // Ingreso de filas
-        JLabel rowsLabel = new JLabel("Numero de filas:", SwingConstants.CENTER);
-        rowsLabel.setFont(new Font("SansSerif", Font.PLAIN, 16));
-        panel.add(rowsLabel);
+            // Ingreso de filas
+            JLabel rowsLabel = new JLabel("Numero de filas:", SwingConstants.CENTER);
+            rowsLabel.setFont(new Font(" ", Font.PLAIN, 16));
+            panel.add(rowsLabel);
 
-        rowsField = new JTextField();
-        panel.add(rowsField);
+            campoRows = new JTextField();
+            panel.add(campoRows);
 
-        // Ingreso de columnas
-        JLabel colsLabel = new JLabel("Numero de columnas:", SwingConstants.CENTER);
-        colsLabel.setFont(new Font("SansSerif", Font.PLAIN, 16));
-        panel.add(colsLabel);
+            // Ingreso de columnas
+            JLabel colsLabel = new JLabel("Numero de columnas:", SwingConstants.CENTER);
+            colsLabel.setFont(new Font(" ", Font.PLAIN, 16));
+            panel.add(colsLabel);
 
-        colsField = new JTextField();
-        panel.add(colsField);
+            campoCols = new JTextField();
+            panel.add(campoCols);
 
-        // Botón siguiente
-        JButton nextButton = new JButton("Siguiente");
-        nextButton.addActionListener(e -> {
-            try {
-                int rows = Integer.parseInt(rowsField.getText());
-                int cols = Integer.parseInt(colsField.getText());
-                if (rows >= 3 && rows <= 9 && cols >= 3 && cols <= 9) {
-                    controller.createMaze(rows, cols);
-                    new ObstacleView(controller).setVisible(true);
-                    dispose();
-                } else {
-                    JOptionPane.showMessageDialog(this, "Las dimensiones deben estar entre 3 y 9.", "Error", JOptionPane.ERROR_MESSAGE);
+            // Boton siguiente
+            JButton siguienteBtn = new JButton("Siguiente");
+            siguienteBtn.addActionListener(e -> {
+                try {
+                    int rows = Integer.parseInt(campoRows.getText());
+                    int cols = Integer.parseInt(campoCols.getText());
+                    if (rows >= 3 && rows <= 9 && cols >= 3 && cols <= 9) {
+                        controller.crearMaze(rows, cols);
+                        new ObstaculosView(controller).setVisible(true);
+                        dispose();
+                    } else {
+                        JOptionPane.showMessageDialog(this, "Las dimensiones deben estar entre 3 y 9.", "Error", JOptionPane.ERROR_MESSAGE);
+                    }
+                } catch (NumberFormatException ex) {
+                    JOptionPane.showMessageDialog(this, "Ingrese numeros vulidos.", "Error", JOptionPane.ERROR_MESSAGE);
                 }
-            } catch (NumberFormatException ex) {
-                JOptionPane.showMessageDialog(this, "Ingrese numeros vulidos.", "Error", JOptionPane.ERROR_MESSAGE);
-            }
-        });
-        panel.add(nextButton);
+            });
+            panel.add(siguienteBtn);
 
-        add(panel);
+            add(panel);
+        }
     }
-}
 
