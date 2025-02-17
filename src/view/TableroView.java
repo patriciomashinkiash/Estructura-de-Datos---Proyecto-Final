@@ -14,16 +14,13 @@
             setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             setLocationRelativeTo(null);
 
-            // Configuración del diseño principal
             JPanel panel = new JPanel();
             panel.setLayout(new GridLayout(7, 1));
 
-            // Titulo principal
             JLabel tituloLabel = new JLabel("GENERAR TABLERO", SwingConstants.CENTER);
             tituloLabel.setFont(new Font(" ", Font.BOLD, 24));
             panel.add(tituloLabel);
 
-            // Subtitulo
             JLabel txtLabel = new JLabel("El ingreso del tamaño de la tabla debe ser entre 3x3 y 9x9", SwingConstants.CENTER);
             txtLabel.setFont(new Font(" ", Font.PLAIN, 14));
             panel.add(txtLabel);

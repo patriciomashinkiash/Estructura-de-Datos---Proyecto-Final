@@ -39,7 +39,7 @@ public class TablaView extends JFrame {
         }
         add(tablaPanel, BorderLayout.CENTER);
 
-        // Panel intermedio con configuración de inicio/fin y botones
+        // Panel intermedio con configuracion de inicio/fin y botones
         JPanel configuracionPanel = new JPanel(new GridLayout(5, 2));
         configuracionPanel.add(new JLabel("Celda de inicio (fila,columna):"));
         campoInicio = new JTextField();
@@ -68,7 +68,7 @@ public class TablaView extends JFrame {
 
         add(configuracionPanel, BorderLayout.SOUTH);
 
-        // Pie de página con tiempos de ejecución en nanosegundos con 7 decimales
+        // Pie de página con tiempos de ejecución en nanosegundos
         tiempoLabel = new JLabel("Tiempo BFS:0.0000000ns | Tiempo DFS:0.0000000ns | Tiempo Recursivo:0.0000000ns | Tiempo Cache:0.0000000ns", SwingConstants.CENTER);
         tiempoLabel.setFont(new Font("SansSerif", Font.BOLD, 14));
         add(tiempoLabel, BorderLayout.NORTH);
@@ -138,7 +138,7 @@ public class TablaView extends JFrame {
                     }
                 }
 
-                // Actualizar la etiqueta del tiempo con 7 decimales
+                // Actualizar la etiqueta del tiempo
                 actualizarTiempo(meth, duracion);
             } else {
                 JOptionPane.showMessageDialog(null, "Ingrese las celdas en formato fila,columna", "Error", JOptionPane.ERROR_MESSAGE);

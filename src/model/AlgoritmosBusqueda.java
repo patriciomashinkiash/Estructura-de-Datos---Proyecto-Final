@@ -102,7 +102,7 @@ public class AlgoritmosBusqueda {
         return Collections.emptyList();
     }
 
-    // Busqueda con cache (programación dinamica)
+    // Busqueda por cache
     public static List<Cell> cacheSearch(Maze maze, Cell inicio, Cell fin, Map<String, List<Cell>> cache) {
         String key = inicio.row + "," + inicio.col;
         if (cache.containsKey(key)) {
