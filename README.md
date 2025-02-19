@@ -14,7 +14,6 @@ Integrantes:
 
 ◦ Patricio Mashinkiash [pmashinkiash@est.ups.edu.ec](mailto:pmashinkiash@est.ups.edu.ec )
 
-_
 ## Descripción del Problema
 
 - El proyecto consiste en desarrollar una aplicación que permita simular y analizar el recorrido de un laberinto mediante algoritmos de búsqueda como BFS (Breadth-First Search), DFS (Depth-First Search), búsqueda recursiva y con memorización (Cache). 
@@ -105,7 +104,6 @@ En las siguientes imagenes se  mostrara el camino y tiempo que realiza cada uno 
 
 - David Larriva:  
   Optamos por utilizar el patrón MVC para mantener una estructura modular y facilitar la escalabilidad del código. Esto permitió una separación clara entre la lógica de los algoritmos, la interfaz gráfica y el controlador, lo que resultó en un código más organizado y fácil de mantener. La implementación de GitHub como herramienta de control de versiones fue esencial para el trabajo colaborativo, permitiéndonos gestionar cambios y resolver conflictos de manera eficiente. En términos generales, creo que el proyecto fue un buen ejercicio de aplicación de estructuras de datos, pero aún hay margen para mejorar en cuanto a optimización de código y diseño de la interfaz. Como posible mejora, se podría agregar la opción de guardar y cargar laberintos previamente configurados, lo que facilitaría la ejecución de pruebas comparativas sin necesidad de repetir manualmente la configuración en cada intento.
-_
 
 ## Conclusión  
 
