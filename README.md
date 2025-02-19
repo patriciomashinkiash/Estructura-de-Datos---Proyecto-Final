@@ -1,5 +1,7 @@
 # Proyecto Final
 
+![image alt](https://github.com/patriciomashinkiash/Estructura-de-Datos---Proyecto-Final/blob/e75e505e5644b53143cd22038ec61fc01d11fcba/images/logo-ups.jpg)
+
 - Carrera: Computación.
 - Materia: Estructura de Datos.
 - Fecha de entrega: 18/02/2025.
@@ -11,8 +13,6 @@ Integrantes:
 ◦ John Tigre [jtigrec4@est.ups.edu.ec](mailto:jtigrec4@est.ups.edu.ec)
 
 ◦ Patricio Mashinkiash [pmashinkiash@est.ups.edu.ec](mailto:pmashinkiash@est.ups.edu.ec )
-
-![image alt](https://github.com/patriciomashinkiash/Estructura-de-Datos---Proyecto-Final/blob/e75e505e5644b53143cd22038ec61fc01d11fcba/images/logo-ups.jpg)
 
 _
 ## Descripción del Problema
