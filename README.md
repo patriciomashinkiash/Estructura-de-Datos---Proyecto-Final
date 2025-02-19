@@ -11,6 +11,9 @@ Integrantes:
 ◦ John Tigre [jtigrec4@est.ups.edu.ec](mailto:jtigrec4@est.ups.edu.ec)
 
 ◦ Patricio Mashinkiash [pmashinkiash@est.ups.edu.ec](mailto:pmashinkiash@est.ups.edu.ec )
+
+![image alt](https://github.com/patriciomashinkiash/Estructura-de-Datos---Proyecto-Final/blob/e75e505e5644b53143cd22038ec61fc01d11fcba/images/logo-ups.jpg)
+
 _
 ## Descripción del Problema
 
@@ -56,26 +59,39 @@ La aplicación cuenta con tres interfaces principales para configurar y ejecutar
 - Valida la entrada del usuario antes de continuar.  
 - Botón "Siguiente" para avanzar a la siguiente configuración.  
 
+![image alt](https://github.com/patriciomashinkiash/Estructura-de-Datos---Proyecto-Final/blob/e75e505e5644b53143cd22038ec61fc01d11fcba/images/Interfaz1.png)
+
 ### Interfaz 2: Selección de Obstáculos
 - Muestra el laberinto visualmente.  
 - Permite marcar hasta 4 celdas como obstáculos.  
 - Botón "Siguiente" para continuar con la simulación.  
+
+![image alt](https://github.com/patriciomashinkiash/Estructura-de-Datos---Proyecto-Final/blob/e75e505e5644b53143cd22038ec61fc01d11fcba/images/Interfaz2.png)
 
 ### Interfaz 3: Simulación del Laberinto
 - Permite establecer punto de inicio y fin en la cuadrícula.  
 - Visualiza la ruta generada por el algoritmo seleccionado.  
 - Opción "Limpiar" para reiniciar la simulación.  
 - Muestra tiempos de ejecución en nanosegundos para comparar eficiencia.  
+
+![image alt](https://github.com/patriciomashinkiash/Estructura-de-Datos---Proyecto-Final/blob/e75e505e5644b53143cd22038ec61fc01d11fcba/images/Interfaz3.png)
  
 En las siguientes imagenes se  mostrara el camino y tiempo que realiza cada uno de los algoritmos.
 - Programación Dinamica: 
 
+![image alt](https://github.com/patriciomashinkiash/Estructura-de-Datos---Proyecto-Final/blob/e75e505e5644b53143cd22038ec61fc01d11fcba/images/Interfaz3%20CAC.png)
+
 - BFS (Breadth-First Search):
+
+![image alt](https://github.com/patriciomashinkiash/Estructura-de-Datos---Proyecto-Final/blob/e75e505e5644b53143cd22038ec61fc01d11fcba/images/Interfaz3%20BFS.png)
 
 - DFS (Depth-First Search): 
 
+![image alt](https://github.com/patriciomashinkiash/Estructura-de-Datos---Proyecto-Final/blob/e75e505e5644b53143cd22038ec61fc01d11fcba/images/Interfaz3%20DFS.png)
+
 - Recursividad:
 
+![image alt](https://github.com/patriciomashinkiash/Estructura-de-Datos---Proyecto-Final/blob/e75e505e5644b53143cd22038ec61fc01d11fcba/images/Interfaz3%20REC.png)
 
 ## Criterio por Estudiante
 
