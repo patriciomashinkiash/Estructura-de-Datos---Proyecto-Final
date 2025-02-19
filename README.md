@@ -23,7 +23,7 @@ Integrantes:
 - El objetivo principal del proyecto es encontrar la ruta más óptima entre dos puntos dentro del laberinto, respetando las restricciones de movimiento (puede desplazarse hacia arriba, abajo, izquierda o derecha) y evitando obstáculos que bloqueen el camino.
 
 - Además, la aplicación debe ser capaz de comparar los tiempos de ejecución de los diferentes algoritmos para determinar cuál de ellos es el más eficiente en distintos escenarios de prueba.
-_
+
 ## Propuesta de Solución
 
 ### Marco Teórico
@@ -95,7 +95,7 @@ En las siguientes imagenes se  mostrara el camino y tiempo que realiza cada uno 
 ## Criterio por Estudiante
 
 - Patricio Mashinkiash:  
-  Durante el desarrollo del proyecto, optamos por implementar varios algoritmos de búsqueda (BFS, DFS, Recursivo y Cache) con el objetivo de analizar cuál de ellos era más eficiente para encontrar la ruta óptima en un laberinto. Consideramos que era fundamental incluir una comparación de tiempos de ejecución, ya que en la vida real, estos algoritmos se aplican en problemas como la navegación GPS y la inteligencia artificial en juegos. Personalmente, me pareció interesante trabajar con la lógica de los algoritmos y comprobar cómo, dependiendo del escenario, algunos eran más efectivos que otros. En retrospectiva, creo que habría sido beneficioso optimizar aún más la gestión de memoria, especialmente en la implementación recursiva, y quizás explorar alternativas como A* para mejorar la búsqueda de caminos óptimos.
+  Durante el desarrollo del proyecto, optamos por implementar varios algoritmos de búsqueda (BFS, DFS, Recursivo y Cache) con el objetivo de analizar cuál de ellos era más eficiente para encontrar la ruta óptima en un laberinto. Consideramos que era fundamental incluir una comparación de tiempos de ejecución, ya que en la vida real, estos algoritmos se aplican en problemas como la navegación GPS y la inteligencia artificial en juegos. Personalmente, me pareció interesante trabajar con la lógica de los algoritmos y comprobar cómo, dependiendo del escenario, algunos eran más efectivos que otros. En retrospectiva, creo que habría sido beneficioso optimizar aún más la gestión de memoria, especialmente en la implementación recursiva, y quizás explorar más alternativas para mejorar la búsqueda de caminos óptimos.
 
 
 
@@ -113,7 +113,7 @@ En la implementación de los diferentes métodos, se observaron los siguientes r
 - Programación Dinámica (Cache): Optimiza el rendimiento evitando cálculos redundantes.  
 - BFS: El método más eficiente para encontrar la ruta más corta gracias a su exploración por niveles.  
 - DFS: Puede ser más rápido en algunos casos, pero no siempre garantiza la mejor ruta y usa más memoria en laberintos grandes.  
-_
+
 
 ##  Consideraciones  
 
