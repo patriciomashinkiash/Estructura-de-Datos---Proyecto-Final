@@ -31,7 +31,7 @@ ___
 El proyecto se desarrolló siguiendo el patrón arquitectónico MVC (Modelo-Vista-Controlador), que permite una mejor organización del código, facilitando su mantenimiento y expansión futura. Se utilizaron las herramientas y lenguajes siguientes:
 
 - **Lenguaje:** Java.
-- **IDE:** NetBeans.
+- **IDE:** Visual Studio Code.
 - **Framework:** Java Swing para el desarrollo de interfaces gráficas.
 - **Control de Versiones:** Git y GitHub.
 

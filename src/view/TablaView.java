@@ -150,13 +150,13 @@ public class TablaView extends JFrame {
             String txtActual = tiempoLabel.getText();
             String newTxt;
             if (meth.equals("BFS")) {
-                newTxt = txtActual.replaceAll(" Tiempo BFS:[^|]+", " Tiempo BFS:" + reinicioTiempo + "ns ");
+                newTxt = txtActual.replaceAll("Tiempo BFS:[^|]+", " Tiempo BFS:" + reinicioTiempo + "ns ");
             } else if (meth.equals("DFS")) {
-                newTxt = txtActual.replaceAll(" Tiempo DFS:[^|]+", " Tiempo DFS:" + reinicioTiempo + "ns ");
+                newTxt = txtActual.replaceAll("Tiempo DFS:[^|]+", " Tiempo DFS:" + reinicioTiempo + "ns ");
             } else if (meth.equals("Recursivo")) {
-                newTxt = txtActual.replaceAll(" Tiempo Recursivo:[^|]+", " Tiempo Recursivo:" + reinicioTiempo + "ns ");
+                newTxt = txtActual.replaceAll("Tiempo Recursivo:[^|]+", " Tiempo Recursivo:" + reinicioTiempo + "ns ");
             } else {
-                newTxt = txtActual.replaceAll(" Tiempo Cache:[^|]+", " Tiempo Cache:" + reinicioTiempo + "ns ");
+                newTxt = txtActual.replaceAll("Tiempo Cache:[^|]+", " Tiempo Cache:" + reinicioTiempo + "ns ");
             }
             tiempoLabel.setText(newTxt);
         }
