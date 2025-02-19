@@ -2,7 +2,7 @@
 ___
 **Realizado por:**  Patricio Alexander Mashinkiash Mora
 **Correo:** pmashinkiash@est.ups.edu.ec
-[No carga la imagen](https://github.com/patriciomashinkiash/Proyecto-Final---Estructura-de-Datos/blob/dbc8cbb0d8f5dbb8cc642d7ba6c68765fdb4cce7/images/logo-ups.jpg)
+![image alt](https://github.com/patriciomashinkiash/Proyecto-Final---Estructura-de-Datos/blob/dbc8cbb0d8f5dbb8cc642d7ba6c68765fdb4cce7/images/logo-ups.jpg)
 # Descripcion del Problema
 ___
 Se requiere desarrollar una aplicación que permita simular el recorrido de un laberinto utilizando algoritmos de búsqueda (BFS, DFS, Recursivo y Cache). El sistema debe permitir la configuración dinámica del tamaño del laberinto, la selección de celdas no transitables, así como la elección de un punto de inicio y de finalización. Además, se deben comparar los tiempos de ejecución de los diferentes algoritmos para determinar el más eficiente.
